@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(background2.jpg);
+    height: 600px;    
+
+   
+}
+.navbar{
+
+    background-color: rgba(243, 242, 240, 0.808);
+}
+
+    .box-1{
+    border-radius: 40px;    
+    width:40%;
+    height: 400px;
+    padding-left: 3%;
+    margin-left: 10%;
+    padding-top: 40px;
+    margin-top: 60px;
+    background-color: rgba(221, 215, 215, 0.637);
+
+}
+
+
+span{
+ color: #263d5a;
+}
+
+
+    .circle {
+       
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #eceef1a6;
+    
+}
+
+.middle{
+    background-image: url(background5.jpg);
+    height: 700px;
+    padding-top: 5%;
+    /* padding-left: 5%; */
+
+}
+.middle .container-xl{
+    height: 60%;
+}
+
+.last{
+    background-image: url(mbr-5.jpg);
+    height: 800px;
+    padding-top: 8%;
+    
+    
+}
+
+.last .container{
+    
+    padding-top: 80px;
+    border-radius: 60px;
+    background-color: rgba(250, 246, 242, 0.726);
+    padding-top: 10px;
+    
+    
+}
+
+.wrapper{
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+.button1{
+    
+    border-radius: 50%;
+    color: #263d5a;
+    
+}
+
+
+/* media query */
+
+@media screen and (max-width:900px){
+    .box-1{
+        width: 65%;
+    } 
+}
+    @media screen and (max-width:900px) {
+        .middle {
+            height: 60%;
+        }
+        
+    }
+
+    @media screen and (max-width:900px)  {
+        .last{
+            height: 1600PX;
+        }
+        
+    } 
+
+
+
+
+
+
